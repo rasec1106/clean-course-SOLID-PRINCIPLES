@@ -4,7 +4,8 @@
     // Resolver sin la triple condicional dentro del if
     // includes? arrays?
     function isRedFruit( fruit: string ): boolean {
-        return ['manzana','cereza','ciruela'].includes(fruit);
+        const redFruits = ['manzana','cereza','ciruela'];
+        return redFruits.includes(fruit);
     }
 
     // Simplificar esta función
